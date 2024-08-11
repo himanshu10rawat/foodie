@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <title>Foodie</title>
+  </head>
+  <body>
+    <header class="header" id="header-section">
+      <nav class="navbar">
+        <div class="container navbar-container">
+          <a class="logo" href="/">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path
+                fill="#ffb83d"
+                d="M169.7 .9c-22.8-1.6-41.9 14-47.5 34.7L110.4 80c.5 0 1.1 0 1.6 0c176.7 0 320 143.3 320 320c0 .5 0 1.1 0 1.6l44.4-11.8c20.8-5.5 36.3-24.7 34.7-47.5C498.5 159.5 352.5 13.5 169.7 .9zM399.8 410.2c.1-3.4 .2-6.8 .2-10.2c0-159.1-128.9-288-288-288c-3.4 0-6.8 .1-10.2 .2L.5 491.9c-1.5 5.5 .1 11.4 4.1 15.4s9.9 5.6 15.4 4.1L399.8 410.2zM176 208a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm64 128a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM96 384a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"
+              />
+            </svg>
+            <span>Foodie</span>
+          </a>
+          <div class="navbar-side">
+            <ul class="nav-list">
+              <li class="nav-items close-icon"><i class="fa-solid fa-xmark cross-icon"></i></li>
+              <li class="nav-items">
+                <a class="menu-items" id="home-menu">Home</a>
+              </li>
+              <li class="nav-items">
+                <a class="menu-items" id="our-menu">Our Menu</a>
+              </li>
+              <li class="nav-items">
+                <a class="menu-items" id="about-food">About Food</a>
+              </li>
+              <li class="nav-items">
+                <a class="menu-items" id="watch-video">Watch Video</a>
+              </li>
+            </ul>
+            <a class="buynow-button menu-items" id="lets-connect">Buy Now</a>
+            <button class="navbar-icon">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <section class="banner-section">
+          <div class="textual-side">
+            <h1>Thai Food</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+              ipsam aliquam sit consectetur voluptate voluptatem totam
+              voluptates sequi. Deserunt maiores fuga porro recusandae
+              repudiandae fugit reprehenderit esse sapiente facilis earum!
+            </p>
+            <a href="#" class="shopping-btn"
+              ><i class="fa-solid fa-cart-shopping"></i> order now</a
+            >
+          </div>
+          <div class="banner-food-image">
+            <img
+              src="https://mobirise.com/extensions/dinerm4/assets/images/03.png"
+              alt="Food Image"
+            />
+          </div>
+        </section>
+      </div>
+    </header>
+    <section class="menu-section">
+      <div class="container">
+        <h2>Newcomer</h2>
+        <h3>Thai fast food</h3>
+        <div class="row">
+          <div class="col-md-4 card-menu one-c">
+            <div class="menu-list card-one">
+              <div class="card-box">
+                <h4>Thai Combo</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="price">
+                  <i class="fa-solid fa-dollar-sign"></i> 12
+                </div>
+                <div class="shopping-icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 card-menu two-c">
+            <div class="menu-list card-two">
+              <div class="card-box">
+                <h4>Thai Pizza</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="price">
+                  <i class="fa-solid fa-dollar-sign"></i> 14
+                </div>
+                <div class="shopping-icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 card-menu three-c">
+            <div class="menu-list card-three">
+              <div class="card-box">
+                <h4>Fish Set</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="price">
+                  <i class="fa-solid fa-dollar-sign"></i> 17
+                </div>
+                <div class="shopping-icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 card-menu four-c">
+            <div class="menu-list card-four">
+              <div class="card-box">
+                <h4>Strawvery Cake</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="price">
+                  <i class="fa-solid fa-dollar-sign"></i> 25
+                </div>
+                <div class="shopping-icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 card-menu five-c">
+            <div class="menu-list card-five">
+              <div class="card-box">
+                <h4>Salad Set</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="price">
+                  <i class="fa-solid fa-dollar-sign"></i> 19
+                </div>
+                <div class="shopping-icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-buttons">
+          <span id="btn-one" class="slider-btn active-button"></span>
+          <span id="btn-two" class="slider-btn"></span>
+          <span id="btn-three" class="slider-btn"></span>
+        </div>
+      </div>
+    </section>
+    <section class="article-section">
+      <div class="container">
+        <div class="article-box">
+          <h2>who are we</h2>
+          <h3>Best food traditions from the world</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            ullamcorper neque dapibus ipsum semper, sit amet luctus turpis
+            porttitor. Ut libero ante, varius quis ligula.
+          </p>
+          <a href="#" class="read-more-btn"
+            ><i class="fa-solid fa-play"></i> Read More</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="features-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="salad-thali">
+              <img
+                src="https://mobirise.com/extensions/dinerm4/assets/images/03.png"
+                alt="salad thali"
+              />
+            </div>
+            <div class="features-icon">
+              <i class="fa-solid fa-box-archive"></i>
+              <span>Fastest delivery on your door step</span>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="features-icon">
+              <i class="fa-brands fa-apple"></i>
+              <span>A new look on the right food!</span>
+            </div>
+            <div class="features-icon">
+              <i class="fa-solid fa-globe"></i>
+              <span>A new look on the right food!</span>
+            </div>
+            <div class="features-icon">
+              <i class="fa-solid fa-users"></i>
+              <span>A new look on the right food!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="our-menu-section" class="ourmenu-section">
+      <div class="container">
+        <h2>Welcome</h2>
+        <h3>Our Menu</h3>
+        <p class="instruction"><i class="fa-solid fa-circle-exclamation"></i> <span class="desktop-view">Click</span> on each image to show the details.</p>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="ourmenu-list">
+              <div class="image-side" id="first-btn">
+                <img
+                  src="https://mobirise.com/extensions/dinerm4/assets/images/04.jpg"
+                  alt="image"
+                />
+              </div>
+              <div class="ourmenu-border">
+                <div class="content-side">
+                  <h4>SUSHI</h4>
+                  <div class="name-price">
+                    <span class="menu-name">Salmon Roll</span>
+                    <span class="dot-line"
+                      ></i
+                    ></span>
+                    <span class="price-menu"
+                      ><i class="fa-solid fa-dollar-sign"></i> 18</span
+                    >
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Ullamcorper eget lectus porta euismod a libero.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="ourmenu-list">
+              <div class="image-side" id="second-btn">
+                <img
+                  src="https://mobirise.com/extensions/dinerm4/assets/images/03.jpg"
+                  alt="image"
+                />
+              </div>
+              <div class="ourmenu-border">
+                <div class="content-side">
+                  <h4>THAI FOOD</h4>
+                  <div class="name-price">
+                    <span class="menu-name">Spicy Fish Set</span>
+                    <span class="dot-line"
+                      ></i
+                    ></span>
+                    <span class="price-menu"
+                      ><i class="fa-solid fa-dollar-sign"></i> 28</span
+                    >
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Ullamcorper eget lectus porta euismod a libero.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="ourmenu-list">
+              <div class="image-side" id="third-btn">
+                <img
+                  src="https://mobirise.com/extensions/dinerm4/assets/images/03.jpg"
+                  alt="image"
+                />
+              </div>
+              <div class="ourmenu-border">
+                <div class="content-side">
+                  <h4>THAI FOOD</h4>
+                  <div class="name-price">
+                    <span class="menu-name">Spicy Fish Set</span>
+                    <span class="dot-line"
+                      ></i
+                    ></span>
+                    <span class="price-menu"
+                      ><i class="fa-solid fa-dollar-sign"></i> 28</span
+                    >
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Ullamcorper eget lectus porta euismod a libero.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="ourmenu-list">
+              <div class="image-side" id="fourth-btn">
+                <img
+                  src="https://mobirise.com/extensions/dinerm4/assets/images/02.jpg"
+                  alt="image"
+                />
+              </div>
+              <div class="ourmenu-border">
+                <div class="content-side">
+                  <h4>PIZZA</h4>
+                  <div class="name-price">
+                    <span class="menu-name">Thai Pizza</span>
+                    <span class="dot-line"
+                      ></i
+                    ></span>
+                    <span class="price-menu"
+                      ><i class="fa-solid fa-dollar-sign"></i> 14</span
+                    >
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Ullamcorper eget lectus porta euismod a libero.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="ourmenu-list">
+              <div class="image-side" id="fifth-btn">
+                <img
+                  src="https://mobirise.com/extensions/dinerm4/assets/images/02.jpg"
+                  alt="image"
+                />
+              </div>
+              <div class="ourmenu-border">
+                <div class="content-side">
+                  <h4>PIZZA</h4>
+                  <div class="name-price">
+                    <span class="menu-name">Thai Pizza</span>
+                    <span class="dot-line"
+                      ></i
+                    ></span>
+                    <span class="price-menu"
+                      ><i class="fa-solid fa-dollar-sign"></i> 14</span
+                    >
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Ullamcorper eget lectus porta euismod a libero.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="ourmenu-list">
+              <div class="image-side" id="sixth-btn">
+                <img
+                  src="https://mobirise.com/extensions/dinerm4/assets/images/04.jpg"
+                  alt="image"
+                />
+              </div>
+              <div class="ourmenu-border">
+                <div class="content-side">
+                  <h4>SUSHI</h4>
+                  <div class="name-price">
+                    <span class="menu-name">Salmon Roll</span>
+                    <span class="dot-line"
+                      ></i
+                    ></span>
+                    <span class="price-menu"
+                      ><i class="fa-solid fa-dollar-sign"></i> 18</span
+                    >
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Ullamcorper eget lectus porta euismod a libero.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="ourmenu-list">
+              <div class="image-side" id="seventh-btn">
+                <img
+                  src="https://mobirise.com/extensions/dinerm4/assets/images/04.jpg"
+                  alt="image"
+                />
+              </div>
+              <div class="ourmenu-border">
+                <div class="content-side">
+                  <h4>SUSHI</h4>
+                  <div class="name-price">
+                    <span class="menu-name">Salmon Roll</span>
+                    <span class="dot-line"
+                      ></i
+                    ></span>
+                    <span class="price-menu"
+                      ><i class="fa-solid fa-dollar-sign"></i> 18</span
+                    >
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Ullamcorper eget lectus porta euismod a libero.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="ourmenu-list">
+              <div class="image-side" id="eighth-btn">
+                <img
+                  src="https://mobirise.com/extensions/dinerm4/assets/images/02.jpg"
+                  alt="image"
+                />
+              </div>
+              <div class="ourmenu-border">
+                <div class="content-side">
+                  <h4>PIZZA</h4>
+                  <div class="name-price">
+                    <span class="menu-name">Thai Pizza</span>
+                    <span class="dot-line"
+                      ></i
+                    ></span>
+                    <span class="price-menu"
+                      ><i class="fa-solid fa-dollar-sign"></i> 14</span
+                    >
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Ullamcorper eget lectus porta euismod a libero.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="delivery-rewards-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="media-content one">
+              <h2>Delivery</h2>
+              <h3>Choose what you want</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper neque dapibus ipsum semper, sit amet luctus turpis porttitor. Ut libero ante, varius quis ligula.</p>
+              <button class="reward-button">
+                <i class="fa-solid fa-user-group"></i>
+                order online
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="reward-image">
+              <img src="https://mobirise.com/extensions/dinerm4/assets/images/03.png" alt="salad image">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="media-content two">
+              <h2>Reward</h2>
+              <h3>Earn points every order</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper neque dapibus ipsum semper, sit amet luctus turpis porttitor. Ut libero ante, varius quis ligula.</p>
+              <button class="reward-button">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                learn more
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about-food-section" class="news-section">
+      <div class="container">
+        <h2>news</h2>
+        <h3>This is all about food</h3>
+        <ul class="news-tabs">
+          <li class="active"><button class="tab-button" type="button" id="all-categories">All Categories</button></li>
+          <li><button class="tab-button" type="button" id="fast-foods">Fast Foods</button></li>
+          <li><button class="tab-button" type="button" id="thai-foods">Thai Foods</button></li>
+        </ul>
+        <div class="news-content">
+          <div class="content active" id="all-categories-content">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="news-list-box">
+                  <div class="news-image">
+                    <img src="https://mobirise.com/extensions/dinerm4/assets/images/01.jpg" alt="image">
+                  </div>
+                  <div class="news-details">
+                    <div class="name-data">
+                      <span><i class="fa-solid fa-location-dot"></i> THAI</span>
+                      <span><i class="fa-solid fa-location-dot"></i> 23, DECEMBER, 2023</span>
+                    </div>
+                    <h4>Thai food rules</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                    <a href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="news-list-box">
+                  <div class="news-image">
+                    <img src="https://mobirise.com/extensions/dinerm4/assets/images/02.jpg" alt="image">
+                  </div>
+                  <div class="news-details">
+                    <div class="name-data">
+                      <span><i class="fa-solid fa-location-dot"></i> PIZZA</span>
+                      <span><i class="fa-solid fa-location-dot"></i> 25, DECEMBER, 2023</span>
+                    </div>
+                    <h4>How to create pizza</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                    <a href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="news-list-box">
+                  <div class="news-image">
+                    <img src="https://mobirise.com/extensions/dinerm4/assets/images/03.jpg" alt="image">
+                  </div>
+                  <div class="news-details">
+                    <div class="name-data">
+                      <span><i class="fa-solid fa-location-dot"></i> SUSHI</span>
+                      <span><i class="fa-solid fa-location-dot"></i> 29, DECEMBER, 2023</span>
+                    </div>
+                    <h4>Sushi workshop</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                    <a href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="news-list-box">
+                  <div class="news-image">
+                    <img src="https://images.pexels.com/photos/1199957/pexels-photo-1199957.jpeg" alt="image">
+                  </div>
+                  <div class="news-details">
+                    <div class="name-data">
+                      <span><i class="fa-solid fa-location-dot"></i> Burger</span>
+                      <span><i class="fa-solid fa-location-dot"></i> 30, DECEMBER, 2023</span>
+                    </div>
+                    <h4>Burger hub</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                    <a href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="news-list-box">
+                  <div class="news-image">
+                    <img src="https://images.pexels.com/photos/1633495/pexels-photo-1633495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="image">
+                  </div>
+                  <div class="news-details">
+                    <div class="name-data">
+                      <span><i class="fa-solid fa-location-dot"></i> sandwich</span>
+                      <span><i class="fa-solid fa-location-dot"></i> 20, DECEMBER, 2023</span>
+                    </div>
+                    <h4>How to create sandwich</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                    <a href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="news-list-box">
+                  <div class="news-image">
+                    <img src="https://mobirise.com/extensions/dinerm4/assets/images/04.jpg" alt="image">
+                  </div>
+                  <div class="news-details">
+                    <div class="name-data">
+                      <span><i class="fa-solid fa-location-dot"></i> Rice Cake</span>
+                      <span><i class="fa-solid fa-location-dot"></i> 10, DECEMBER, 2023</span>
+                    </div>
+                    <h4>Rice Cake workshop</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                    <a href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content" id="fast-foods-content">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="news-list-box">
+                  <div class="news-image">
+                    <img src="https://mobirise.com/extensions/dinerm4/assets/images/02.jpg" alt="image">
+                  </div>
+                  <div class="news-details">
+                    <div class="name-data">
+                      <span><i class="fa-solid fa-location-dot"></i> PIZZA</span>
+                      <span><i class="fa-solid fa-location-dot"></i> 25, DECEMBER, 2023</span>
+                    </div>
+                    <h4>How to create pizza</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                    <a href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="news-list-box">
+                  <div class="news-image">
+                    <img src="https://images.pexels.com/photos/1199957/pexels-photo-1199957.jpeg" alt="image">
+                  </div>
+                  <div class="news-details">
+                    <div class="name-data">
+                      <span><i class="fa-solid fa-location-dot"></i> Burger</span>
+                      <span><i class="fa-solid fa-location-dot"></i> 30, DECEMBER, 2023</span>
+                    </div>
+                    <h4>Burger hub</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                    <a href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="news-list-box">
+                  <div class="news-image">
+                    <img src="https://images.pexels.com/photos/1633495/pexels-photo-1633495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="image">
+                  </div>
+                  <div class="news-details">
+                    <div class="name-data">
+                      <span><i class="fa-solid fa-location-dot"></i> sandwich</span>
+                      <span><i class="fa-solid fa-location-dot"></i> 20, DECEMBER, 2023</span>
+                    </div>
+                    <h4>How to create sandwich</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                    <a href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content" id="thai-foods-content">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="news-list-box">
+                  <div class="news-image">
+                    <img src="https://mobirise.com/extensions/dinerm4/assets/images/01.jpg" alt="image">
+                  </div>
+                  <div class="news-details">
+                    <div class="name-data">
+                      <span><i class="fa-solid fa-location-dot"></i> THAI</span>
+                      <span><i class="fa-solid fa-location-dot"></i> 23, DECEMBER, 2023</span>
+                    </div>
+                    <h4>Thai food rules</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                    <a href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="news-list-box">
+                  <div class="news-image">
+                    <img src="https://mobirise.com/extensions/dinerm4/assets/images/03.jpg" alt="image">
+                  </div>
+                  <div class="news-details">
+                    <div class="name-data">
+                      <span><i class="fa-solid fa-location-dot"></i> SUSHI</span>
+                      <span><i class="fa-solid fa-location-dot"></i> 29, DECEMBER, 2023</span>
+                    </div>
+                    <h4>Sushi workshop</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                    <a href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="news-list-box">
+                  <div class="news-image">
+                    <img src="https://mobirise.com/extensions/dinerm4/assets/images/04.jpg" alt="image">
+                  </div>
+                  <div class="news-details">
+                    <div class="name-data">
+                      <span><i class="fa-solid fa-location-dot"></i> Rice Cake</span>
+                      <span><i class="fa-solid fa-location-dot"></i> 10, DECEMBER, 2023</span>
+                    </div>
+                    <h4>Rice Cake workshop</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                    <a href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="watch-video-section" class="video-section">
+      <div class="container">
+        <h2>Latest</h2>
+        <h3>Watch Video</h3>
+        <div class="latest-video">
+          <button type="button" class="play-button" onClick="openModel()">
+            <i class="fa-solid fa-circle-play"></i>
+          </button>
+        </div>
+      </div>
+      <div class="video-display">
+        <div class="video-wrapper">
+          <div class="video-content">
+            <iframe class="iframe" src="https://www.youtube.com/embed/es4x5R-rV9s?enablejsapi" frameborder="0" width="100%" height="100%" allowfullscreen="1" allow="autoplay"></iframe>
+            <button onClick="closeModal()" type="button" class="close-button">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="client-review">
+      <div class="container">
+        <h2>Reward</h2>
+        <h3>Clients review</h3>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h4> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque dapibus ipsum semper, amet luctus turpis porttitor.
+              <i class="fa-brands fa-webflow"></i>
+            </h4>
+            <div class="carousel-image">
+              <img src="https://mobirise.com/extensions/dinerm4/assets/images/face1.jpg" alt="img">
+            </div>
+            <h5>Ann Grayson</h5>
+            <h6>Manager</h6>
+          </div>
+          <div class="carousel-item">
+            <h4> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque dapibus ipsum semper, amet luctus turpis porttitor.
+              <i class="fa-brands fa-webflow"></i>
+            </h4>
+            <div class="carousel-image">
+              <img src="https://mobirise.com/extensions/dinerm4/assets/images/face2.jpg" alt="img">
+            </div>
+            <h5>Jane Brown</h5>
+            <h6>Client</h6>
+          </div>
+          <div class="carousel-item">
+            <h4> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque dapibus ipsum semper, amet luctus turpis porttitor.
+              <i class="fa-brands fa-webflow"></i>
+            </h4>
+            <div class="carousel-image">
+              <img src="https://mobirise.com/extensions/dinerm4/assets/images/face3.jpg" alt="img">
+            </div>
+            <h5>Ben Stifler</h5>
+            <h6>Desinger</h6>
+          </div>
+        </div>
+          <i class="fa-solid fa-chevron-left carousel-button"></i>
+          <i class="fa-solid fa-chevron-right carousel-button"></i>
+      </div>
+    </section>
+    <section id="lets-connect-section" class="lets-connect">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h2>Let's connect!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <form>
+              <div class="input-group">
+                <input type="email" placeholder="Your email address" name="email" autocomplete="email" required>
+                <button type="submit"><i class="fa-regular fa-bell"></i> Subscribe</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-4">
+            <div class="lets-connect-image">
+            <img src="https://mobirise.com/extensions/dinerm4/assets/images/04.png" alt="image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ask-question">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>
+              Ask a question
+              </h2>
+            <form>
+              <div class="input-group">
+                <input type="text" placeholder="Name" name="username" autocomplete="username" required>
+              </div>
+              <div class="input-group">
+                <input type="email" placeholder="Email" name="email" autocomplete="email" required>
+              </div>
+              <div class="input-group">
+                <input type="tel" placeholder="Phone Number" name="phone" autocomplete="phone" minlength="12" maxlength="12" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" required>
+              </div>
+              <div class="input-group">
+                <textarea name="Your Message" rows="5" id="yourMessage" placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit">Send message</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <iframe class="googel-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.0830313310503!2d77.36992837528881!3d28.627273475667632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce550adec536d%3A0xfc9a748d99d8bd07!2sITHUM%20TOWER%2C%20GALAXY%20BUSINESS%20PARK%2C%20Block%20A%2C%20Industrial%20Area%2C%20Sector%2062%2C%20Noida%2C%20Uttar%20Pradesh%20201309!5e0!3m2!1sen!2sin!4v1715928324637!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-us">
+      <div class="container">
+        <div class="row-contact-us">
+          <div class="left-side">
+            <address><span class="icon"><i class="fa-solid fa-location-dot"></i></span><div>570 8th Floor, Noida Sector 62,<br> Uttar Pradesh 201309, India</div></address>
+            <a href="tel:+9968775442"><span class="icon"><i class="fa-solid fa-phone"></i></span>9968775442</a>
+            <div class="time-table">
+              <span class="icon"><i class="fa-solid fa-clock"></i></span>
+              <div class="date-date">
+                <span>Monday – Friday</span>
+              <span>10.00 AM – 11.00 PM</span>
+              </div>
+            </div>
+          </div>
+          <div class="right-side">
+            <h2>Instagram feed</h2>
+            <div class="instagram-images">
+              <a href="#">
+                <img src="https://mobirise.com/extensions/dinerm4/assets/images/01.jpg" alt="image">
+              </a>
+              <a href="#">
+                <img src="https://mobirise.com/extensions/dinerm4/assets/images/02.jpg" alt="image">
+              </a>
+              <a href="#">
+                <img src="https://mobirise.com/extensions/dinerm4/assets/images/03.jpg" alt="image">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row-footer">
+          <div class="left-side-footer">
+            <a href="#">About us</a>
+            <a href="#">Menu</a>
+            <a href="#">Blog</a>
+            <a href="#">Gallery</a>
+            <a href="#">Help</a>
+            <a href="#">Contact</a>
+          </div>
+          <div class="right-side-footer">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-vimeo-v"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <section class="copy-right">
+      <div class="container">
+        <p>
+          © Copyright 2024 Foodie - All Rights Reserved
+          </p>
+      </div>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
